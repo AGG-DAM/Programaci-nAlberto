@@ -12,7 +12,7 @@ public class Ejercicio13 {
             System.out.println("El numero es par");
         } else if (numero % 5 == 0) {
             System.out.println("El numero es  divisible entre 5 ");
-        } else if (numero % 2 == 1) {
+        } else {
             System.out.println("El numero es impar");
 
         }
