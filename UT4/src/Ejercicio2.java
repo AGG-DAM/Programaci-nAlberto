@@ -7,8 +7,8 @@ public class Ejercicio2 {
         }else {
             int numeromenor = Math.min(numero1, numero2);
             int numeromayor = Math.max(numero1, numero2);
-            for (numeromenor += 1; numeromenor < numeromayor; numeromenor++) {
-                System.out.print(numeromenor + " ");
+            for (int i=numeromenor; i <= numeromayor; i++) {
+                System.out.print(i + " ");
             }
         }
     }
